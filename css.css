@@ -1,0 +1,491 @@
+/*公共样式 start*/
+*{margin: 0;padding: 0;}
+.wrap{
+    background-image: url("img/images/bei_03.png");
+    width: 100%;
+    min-width: 1140px;
+}
+.box{
+    margin: 0 auto;
+    background-color: white;
+    width: 1140px;
+}
+.clear{clear: both}
+body{font-family: "Microsoft YaHei","微软雅黑"}
+/*公共样式 end*/
+/*header start*/
+.header{
+    height: 88px;
+}
+/*headervend*/
+/*head start*/
+.head{
+    height: 166px;
+    background-image: url("img/images/bei_03.png");
+}
+.logo1{
+    margin-top: 90px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+     float: left;
+     width: 188px;
+    color:#c34c21 ;
+ }
+.nav{
+    margin-top: 90px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    margin-left: 94px;
+    width:475px;
+}
+.nav ul li{
+    list-style-type: none;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    width: 95px;
+}
+.nav ul li a{
+    display: block;
+    color: #777777;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background-color: #c34c21;
+    color: white;
+}
+.logo2{
+    height: 50px;
+    float: right;
+    width: 200px;
+    background-color: #c34c21;
+    margin-top: 90px;
+    color: white;
+    text-align: center;
+}
+.logo2 a{
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+}
+/*head end*/
+/*banner start*/
+.banner .box{
+    height: 70px;
+}
+.banner img{
+    margin-left: 7px;
+    margin-top: 16px;
+    float: right;
+}
+.banner img:nth-child(1){
+    margin-right: 55px;
+}
+/*banner end*/
+/*banner1 start*/
+.banner1 .box{
+    position: relative;
+    padding-left: 55px;
+    box-sizing: border-box;
+    height: 500px;
+}
+.banner12{
+    width: 1028px;
+    height: 500px;
+}
+.banner11{
+    padding-left: 15px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    top: 310px;
+    left: 55px;
+    position: absolute;
+    width: 510px;
+    height: 167px;
+    background-color: #c34c21;
+    color: white;
+}
+.banner11 p:nth-child(1){font-size: 25px}
+.banner11 p:nth-child(2){font-size: 12px;
+    margin-top: 10px;
+    line-height: 20px;}
+.banner11 p:nth-child(3){margin-top: 20px}
+/*banner1 end*/
+/*con start*/
+.con .box{
+    height: 1720px;
+    padding-top: 140px;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+.leftcon{
+    float: left;
+    width: 715px;
+    height: 720px;
+}
+.leftcon1{
+    height: 110px;
+}
+.leftcon1 p:nth-child(1){
+    font-size: 20px;
+    width: 475px;
+}
+.leftcon1 p:nth-child(2){margin-top: 10px}
+.zong{color: #ce4c21}
+.zi{color: #c694ce}
+.leftcon11{
+    line-height: 25px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: white;
+    margin-left: 520px;
+    margin-top: -45px;
+    width: 133px;
+    height: 60px;
+    background-color: #c34c21;
+}
+.leftcon2{
+    width: 641px;
+    height: 422px;
+}
+.leftcon2 img{width: 100%;
+height: 100%}
+.wen{
+    margin-top: 10px;
+    width: 660px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+}
+.read{
+    font-size: 12px;
+    margin-top: 30px;
+    background-color: #c34c21;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+.con .box .left2con>div:nth-child(2){margin-top: 50px}
+.left2con{
+    width: 715px;
+    float: left;
+}
+.rightcon{
+    float: right;
+    width: 315px;
+    height: 1540px;
+    margin-right: 55px;
+}
+.rightcon1{
+    width: 315px;
+    height: 54px;
+}
+.rightcon1 li{
+    text-align: center;
+    line-height: 54px;
+    float: left;
+    list-style-type: none;
+    width: 85px;
+    height: 50px;
+}
+.rightcon1 li a{
+    display: block;
+    color:#999999;
+    text-decoration: none;
+}
+.rightcon1 li a:hover{
+    color: white;
+    background-color: #c34c21;
+}
+.rightcon2{
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 315px;
+    height: 130px;
+    border: 1px solid #999999;
+}
+.rightcon2{border-bottom: none}
+.rightcon2:nth-child(5){border-bottom: 1px solid #999999}
+.rightcon21{
+    float: left;
+    width: 90px;
+    height: 88px;
+}
+.rightcon22{
+    color:#999999;
+    float: left;
+    font-size: 12px;
+    width: 160px;
+    padding-left: 20px;
+}
+.rightcon2 p:nth-child(2){color: #c34c21;
+margin-top: 5px}
+.rightcon2 p:nth-child(4){margin-top: 10px}
+.rightcon21 img{
+    width: 100%;
+    height: 100%;
+}
+.rightcon3{
+    height: 228px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 1px solid #c34c21;
+    padding-top: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.rightcon3 p{
+    font-size: 20px;
+    color: #c34c21;
+}
+.input{
+    margin-top: 28px;
+    outline: none;
+    width: 290px;
+    height: 40px;
+    border: 1px solid #999999;
+}
+.send{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 170px;
+    color: white;
+    background-color: #c34c21;
+    border: 1px solid #c34c21;
+}
+.rightcon4{
+    float: left;
+    width: 140px;
+    height: 93px;
+    margin-top: 30px;
+}
+.rightcon4 img{
+    width: 100%;
+    height: 100%;
+}
+.rightcon4:nth-child(even){float: right}
+.h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #c34c21;
+    margin-top: 40px}
+.rightcon5{
+    float: left;
+    width: 315px;
+    font-size: 12px;
+    color: #c34c21;
+    height: 55px;
+    border-bottom: 1px dashed #333333;
+}
+.rightcon5 p{width: 315px;margin-top: 25px}
+.rightcon5:nth-child(1){margin-top: 10px}
+/*con end*/
+/*foot start*/
+.foot{
+    min-width: 1140px;
+    background-color: #282828;
+}
+.foot .box{
+    background-color: #282828;
+}
+.foot1{
+    margin-left: 20px;
+    float: left;
+    padding-top: 70px;
+    height: 525px;
+    width: 270px;
+}
+.foot1:nth-child(1){margin-left: 0}
+.foot1:nth-child(1) img{
+    margin-top: 20px;
+}
+.foot1 p:nth-child(1){font-size: 20px;color: white}
+.foot1:nth-child(1) p:nth-child(3){line-height: 30px;
+    font-size: 12px;color: #817f7f}
+.p1{
+    height: 58px;
+    line-height: 58px;
+    color: #817f7f;
+    font-size: 12px;
+    border-bottom: 1px dashed #817f7f;
+}
+.foot11{
+    float: left;
+    width: 90px;
+    height: 88px;
+}
+.foot11 img{
+    height: 100%;
+}
+.foot1:nth-child(4)>div:nth-child(5) img{
+    width: 90px;
+}
+.foot1:nth-child(4)>div:nth-child(2){
+    margin-top: 20px;
+}
+.foot1:nth-child(4)>div:nth-child(3){
+    margin-top: 20px;
+}
+.foot1:nth-child(4)>div:nth-child(4){
+    margin-top: 20px;
+}
+/*foot end*/
+/*footer start*/
+.footer{
+    min-width: 1140px;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    background-color: black;
+}
+.footer .box{
+    font-size: 12px;
+    color: #817f6b;
+    text-align: center;
+    background-color: black;
+}
+/*footer end*/
+@media screen and (max-width: 1156px) {
+    .wrap{
+        min-width: 720px;
+    }
+    .box {
+        margin: 0 auto;
+        background-color: white;
+        width: 720px;
+    }
+    .nav {
+        margin-left: 0;
+    }
+    .head {
+        height: 220px;
+    }
+    .logo2 {
+        margin-top: 10px
+    }
+    .header {
+        display: none
+    }
+    .banner12{
+        width: 610px;
+        height: 500px;
+    }
+    .banner12 img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner11{
+        width: 330px;
+        height: 244px;
+    }
+    .banner1 .box{
+        height: 1000px;
+    }
+    .leftcon1 p:nth-child(1){
+        width: 288px;
+    }
+    .leftcon11{
+        font-size: 12px;
+        padding-left: 10px;
+        width: 90px;
+        margin-left: 320px;
+        margin-top: -70px;
+    }
+    .leftcon2{
+        width: 395px;
+        height: 260px;
+    }
+    .wen{
+        width: 395px;
+    }
+    .con .box>div:nth-child(2){
+        margin-top: 0;
+    }
+    .leftcon{
+        height: 650px;
+    }
+    .rightcon{
+        width: 180px;
+    }
+    .rightcon1{width: 180px;}
+    .rightcon1 li{
+        width: 180px;
+    }
+    .rightcon1{height: 150px}
+    .rightcon2{
+        width: 180px;
+        height: 180px;
+    }
+    .rightcon21{
+        width: 52px;
+        height: 52px;
+    }
+    .rightcon22{
+        width: 90px;
+        padding-left: 8px;
+    }
+    .rightcon p:nth-child(3){
+        margin-top: 10px;
+    }
+    .rightcon3 p:nth-child(1){font-size: 16px}
+    .rightcon3 p:nth-child(2){font-size: 14px}
+    .input{width: 160px}
+    .rightcon4 {
+        width: 80px;
+        height: 55px;
+    }
+    .rightcon4{
+        clear: both;
+    }
+    .rightcon4:nth-child(even){
+        float: left;
+    }
+    .rightcon5{width: 180px;
+    height: 80px}
+    .rightcon5 p{width: 180px}
+    .left2con{
+       height: 0;
+    }
+    .rightcon{
+        float: right;
+    }
+    .send{
+        width: 80px;
+        margin-left: 270px;
+    }
+    .con .box{
+        height: 2300px;
+    }
+    .foot{
+        min-width: 720px;
+    }
+    .foot1{
+        clear: both;
+        width: 720px;
+    }
+    .foot1{
+        margin-left: 0;
+        height: 400px;
+        padding-top: 0;
+    }
+    .foot1:nth-child(1){
+        height: 300px;
+        padding-top: 50px;
+    }
+    .foot11{
+        width: 240px;
+        box-sizing: border-box;
+        border: 2px solid white;
+    }
+    .footer{
+
+        min-width: 720px;
+    }
+}
